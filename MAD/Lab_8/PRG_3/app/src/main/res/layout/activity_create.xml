@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahe.prg_3.CreateActivity">
+
+    <TextView
+        android:id="@+id/uname"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="@string/uname"
+        android:textSize="20sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/mname"
+        android:layout_marginTop="73dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/mname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mname"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/mname"
+        android:textSize="20sp"
+        app:layout_constraintRight_toLeftOf="@+id/mname_edit"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintTop_toBottomOf="@+id/uname" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="134dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="@string/year"
+        android:textSize="20sp"
+        android:layout_marginStart="46dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/year_edit"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/points"
+        android:textSize="20sp"
+        app:layout_constraintRight_toLeftOf="@+id/points_edit"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/year"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/uname_edit"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/uname_edit"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/mname_edit"
+        app:layout_constraintBaseline_toBaselineOf="@+id/uname"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/mname_edit"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/mname_edit"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/mname_edit"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/year_edit"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/uname_edit"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/year_edit"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/year_edit"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/year_edit"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="46dp"
+        app:layout_constraintTop_toBottomOf="@+id/mname_edit"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/year"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/points_edit"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/points_edit"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/year_edit"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/year_edit"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/year_edit"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="160dp"
+        android:layout_height="49dp"
+        android:text="@string/submit"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="62dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

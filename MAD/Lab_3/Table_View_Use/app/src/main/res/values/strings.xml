@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Table_View_Use</string>
+    <string name="textview1">Open...</string>
+    <string name="textview2">Save...</string>
+    <string name="textview3">SaveAs...</string>
+    <string name="textview4">Import...</string>
+    <string name="textview5">Export...</string>
+    <string name="textview6">Quit</string>
+</resources>

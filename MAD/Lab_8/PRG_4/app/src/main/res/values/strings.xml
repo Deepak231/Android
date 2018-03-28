@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PRG_4</string>
+    <string name="create">Create</string>
+    <string name="display">Display</string>
+    <string name="edit">Edit</string>
+    <string name="sid">SID</string>
+    <string name="sname">SNAME</string>
+    <string name="sem">Sem</string>
+    <string name="branch">Branch</string>
+    <string name="faculty">Faculty</string>
+    <string name="sid_edit" />
+    <string name="sname_edit" />
+    <string name="sem_edit" />
+    <string name="branch_edit" />
+    <string name="faculty_edit" />
+    <string name="submit_edit">Submit</string>
+    <string name="view">TextView</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PRG_1</string>
+    <string name="course">Courses</string>
+    <string name="admissions">Admissions</string>
+    <string name="faculty">Faculty</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="homepage">HomePage</string>
+    <string name="textview1">This is Courses</string>
+    <string name="textview2">This is Home</string>
+    <string name="textview3">This is Admission</string>
+    <string name="textview4">This is Faculty</string>
+    <string name="textview5">This is Contact Us</string>
+    <string name="textview6">This is About Us</string>
+    <string name="menu">menu</string>
+</resources>

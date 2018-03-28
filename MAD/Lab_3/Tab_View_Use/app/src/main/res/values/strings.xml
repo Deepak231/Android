@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tab_View_Use</string>
+    <string name="tab2">Albums</string>
+    <string name="tab1">Artists</string>
+    <string name="tab3">Songs</string>
+    <string name="textview">hello</string>
+    <string name="textview1">This is Artists</string>
+    <string name="textview2">This is Albums</string>
+    <string name="textview3">This is Songs</string>
+</resources>

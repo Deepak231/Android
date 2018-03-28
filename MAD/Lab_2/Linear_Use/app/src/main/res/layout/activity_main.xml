@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahe.linear_use.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="89dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.48"
+            android:background="#ff2827"
+            android:gravity="center"
+            android:text="@string/textview1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="106dp"
+            android:layout_height="300dp"
+            android:background="#50ff2b"
+            android:gravity="center"
+            android:text="@string/textview2"
+            android:textSize="30sp"
+            android:layout_weight="0.35" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="100dp"
+            android:layout_height="301dp"
+            android:layout_weight="0.70"
+            android:background="#2125ff"
+            android:gravity="center"
+            android:text="@string/textview3"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="303dp"
+            android:background="#fff910"
+            android:gravity="center"
+            android:text="@string/textview4"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview5"
+        android:gravity="center"
+        android:layout_weight="0.28"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#646464" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:gravity="center"
+        android:text="@string/textview6"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#646464"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="@string/textview7"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#646464"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:gravity="center"
+        android:text="@string/textview8"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:background="#646464"/>
+
+</android.widget.LinearLayout>

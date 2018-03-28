@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PRG_4</string>
+    <string name="button1">Action</string>
+    <string name="togglebutton">ToggleButton</string>
+</resources>

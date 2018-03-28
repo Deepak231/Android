@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PRG_1</string>
+    <string name="create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="dsiplay">Display</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="name_edit" />
+    <string name="phone_edit" />
+    <string name="email_edit" />
+    <string name="submit">Submit</string>
+    <string name="display" />
+</resources>

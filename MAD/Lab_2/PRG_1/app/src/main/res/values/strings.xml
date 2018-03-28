@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PRG_1</string>
+    <string name="button">Activity2</string>
+    <string name="textview">In Activity2</string>
+</resources>

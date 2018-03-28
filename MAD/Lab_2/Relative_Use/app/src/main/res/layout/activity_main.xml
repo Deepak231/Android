@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#322e2f"
+    tools:context="com.example.mahe.relative_use.MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="@string/button"
+        android:textSize="20sp"
+        android:layout_marginEnd="26dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textSize="25sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        android:textColor="#EEE"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button1"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_marginEnd="43dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300sp"
+        android:layout_height="30sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/name1"
+        android:layout_marginTop="43dp"
+        android:background="#FFF"
+        tools:ignore="LabelFor"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignStart="@+id/textView" />
+</android.widget.RelativeLayout>

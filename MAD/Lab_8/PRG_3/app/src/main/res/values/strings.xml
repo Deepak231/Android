@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PRG_3</string>
+    <string name="create">Create</string>
+    <string name="view">View</string>
+    <string name="uname">Uname</string>
+    <string name="mname">Mname</string>
+    <string name="year">Year</string>
+    <string name="points">Points</string>
+    <string name="uname_edit" />
+    <string name="mname_edit" />
+    <string name="year_edit" />
+    <string name="points_edit" />
+    <string name="submit">Submit</string>
+    <string name="textview">TextView</string>
+</resources>

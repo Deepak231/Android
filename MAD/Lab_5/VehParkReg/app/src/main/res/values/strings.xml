@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VehParkReg</string>
+    <string name="textView1">Vehicle Type</string>
+    <string name="textView2">Vehicle No</string>
+    <string name="textView3">RC No</string>
+    <string name="textView7"> - </string>
+    <string name="textView8"> - </string>
+    <string name="textView9"> - </string>
+    <string name="name1" />
+    <string name="name2" />
+    <string name="button">Submit</string>
+    <string name="button2">Confirm</string>
+</resources>

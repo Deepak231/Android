@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahe.prg_1.EditContactActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/name_1"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="11dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/phone_1"
+        app:layout_constraintRight_toLeftOf="@+id/name_edit1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/email_1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="17dp" />
+
+    <TextView
+        android:id="@+id/phone_1"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="38dp"
+        android:gravity="center"
+        android:text="@string/phone"
+        android:textSize="20sp"
+        app:layout_constraintRight_toLeftOf="@+id/phone_edit1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="87dp" />
+
+    <TextView
+        android:id="@+id/email_1"
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@+id/name_1"
+        app:layout_constraintRight_toLeftOf="@+id/email_edit1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="218dp" />
+
+    <EditText
+        android:id="@+id/name_edit1"
+        android:layout_width="194dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/name_edit"
+        tools:ignore="LabelFor"
+        app:layout_constraintRight_toRightOf="@+id/phone_edit1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/name_1"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <EditText
+        android:id="@+id/phone_edit1"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/phone_edit"
+        tools:ignore="LabelFor"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="87dp"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/email_edit1"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/email_edit"
+        tools:ignore="LabelFor"
+        app:layout_constraintRight_toRightOf="@+id/name_edit1"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/email_1"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/submit_1"
+        android:layout_width="107dp"
+        android:layout_height="51dp"
+        android:text="@string/submit"
+        android:layout_marginTop="57dp"
+        app:layout_constraintTop_toBottomOf="@+id/email_edit1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

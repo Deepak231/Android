@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Relative_Use</string>
+    <string name="textview">Type here:</string>
+    <string name="textview1" />
+    <string name="button">Cancel</string>
+    <string name="button1">OK</string>
+    <string name="name1" />
+</resources>

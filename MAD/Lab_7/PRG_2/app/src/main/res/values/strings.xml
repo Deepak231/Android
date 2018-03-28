@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PRG_2</string>
+    <string name="textview1">TextView</string>
+    <string name="message">Message</string>
+    <string name="sim">Sim1/Sim2</string>
+    <string name="whatsapp_gmail">WhatsApp/Gmail</string>
+</resources>

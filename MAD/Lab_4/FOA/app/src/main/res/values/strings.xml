@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FOA</string>
+    <string name="button">Submit</string>
+    <string name="checkbox1">CheckBox</string>
+</resources>
